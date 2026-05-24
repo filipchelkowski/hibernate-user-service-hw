@@ -1,5 +1,6 @@
 package mate.academy.dao.impl;
 
+import java.util.Optional;
 import mate.academy.dao.UserDao;
 import mate.academy.model.User;
 import mate.academy.util.HibernateUtil;
@@ -7,8 +8,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
-
-import java.util.Optional;
 
 public class UserDaoImpl implements UserDao {
 
